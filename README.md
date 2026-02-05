@@ -73,7 +73,7 @@ The installation process completed successfully. Applications were installed usi
 
 ## Reflection
 
-This lab helped me understand the relationship between package managers and repositories in Linux. I learned how `dpkg` works at a lower level and why APT is commonly used for everyday software management due to its ability to handle dependencies automatically. One thing I realized after this lab is that installing software is only part of it. Next time I would also try removing packages and cleaning unused dependencies to understand how to keep a Linux system clean and maintained.
+This lab helped me understand the relationship between package managers and repositories in Linux. I learned how `dpkg` works at a lower level and why APT is commonly used for everyday software management due to its ability to handle dependencies automatically. After completing this lab, I realized that installing software is only part of managing a system. Next time, I would also focus on removing packages and cleaning unused dependencies to better understand long-term system maintenance in Linux.
 
 ---
 
