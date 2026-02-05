@@ -44,15 +44,21 @@ A repository is a remote storage location containing software packages maintaine
 ```bash
 sudo dpkg -i discord-0.0.111.deb
 
+'''
+
 5. Updated the package repository list using:
 
 ```bash
 sudo apt update
 
+'''
+
 6. Installed an application using APT:
 
 ```bash
 sudo apt install pidgin
+
+'''
 
 7. Observed how APT automatically installed required dependencies.
 8. Verified installation by launching the application from the terminal.
