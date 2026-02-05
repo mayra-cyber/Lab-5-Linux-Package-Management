@@ -39,12 +39,21 @@ A repository is a remote storage location containing software packages maintaine
 1. Logged into the Kali Linux virtual machine.
 2. Downloaded a `.deb` package (Discord) to demonstrate local package installation.
 3. Navigated to the Downloads directory and verified the package.
-4. Installed the package using:
--sudo dpkg -i discord-0.0.111.deb
+4. Installed the package using dpkg:
+
+```bash
+sudo dpkg -i discord-0.0.111.deb
+
 5. Updated the package repository list using:
--sudo apt update
+
+```bash
+sudo apt update
+
 6. Installed an application using APT:
--sudo apt install pidgin
+
+```bash
+sudo apt install pidgin
+
 7. Observed how APT automatically installed required dependencies.
 8. Verified installation by launching the application from the terminal.
 
